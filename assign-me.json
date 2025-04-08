@@ -1,0 +1,6 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "reviewers": ["Cyb3r-Jak3"],
+    "assignees": ["Cyb3r-Jak3"],
+    "labels": ["dependencies", "renovate"]
+}
