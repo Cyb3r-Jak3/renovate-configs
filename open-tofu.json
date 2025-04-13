@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Open Tofu registry configuration for Renovate.",
+  "packageRules": [
+    {
+      "matchDatasources": ["terraform-provider", "terraform-module"],
+      "registryUrls": ["https://registry.opentofu.org"]
+    }
+  ]
+}

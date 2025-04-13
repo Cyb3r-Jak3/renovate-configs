@@ -1,5 +1,6 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Assigns all PRs to the me.",
     "reviewers": ["Cyb3r-Jak3"],
     "assignees": ["Cyb3r-Jak3"],
     "labels": ["dependencies", "renovate"]
