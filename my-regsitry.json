@@ -1,0 +1,13 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Credentials for my private registry.",
+    "hostRules": [
+        {
+            "description": "Credentials for my private registry.",
+            "hostType": "docker",
+            "matchHost": "cf-registry.cyberjake.xyz",
+            "username": "{{ secrets.SERVERLESS_REGISTRY_USERNAME }}",
+            "password": "{{ secrets.SERVERLESS_REGISTRY_PASSWORD }}"
+        }
+    ]
+  }
