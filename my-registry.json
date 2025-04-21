@@ -5,7 +5,7 @@
         {
             "description": "Credentials for my private registry.",
             "hostType": "docker",
-            "matchHost": "cf-registry.cyberjake.xyz",
+            "matchHost": "https://cf-registry.cyberjake.xyz/v2/",
             "username": "{{ secrets.SERVERLESS_REGISTRY_USERNAME }}",
             "password": "{{ secrets.SERVERLESS_REGISTRY_PASSWORD }}"
         }
