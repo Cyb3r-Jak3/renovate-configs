@@ -2,7 +2,7 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "packageRules": [
         {
-            "matchPackageNames": ["@cloudflare/*", "wrangler"],
+            "matchPackageNames": ["@cloudflare/*", "wrangler", "miniflare"],
             "groupName": "Cloudflare packages"
         }
     ]
