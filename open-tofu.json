@@ -15,7 +15,7 @@
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": ["^main.tf$"],
+      "managerFilePatterns": ["/^main.tf$/"],
       "matchStrings": ["required_version\\s=\\s\"(?<currentValue>.*?)\""],
       "depNameTemplate": "opentofu/opentofu",
       "datasourceTemplate": "github-releases"
