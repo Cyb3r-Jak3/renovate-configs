@@ -21,4 +21,9 @@ jobs:
         run: npm install -g renovate
 
       - name: Validate Renovate Configs
-        run: renovate-config-validator --config-file *.json
+        run: |
+            # Find all renovate.json files in the repository
+            find . -name '*.json' -print0 -type f | while IFS= read -r -d '' file; do
+                echo "Validating $file..."
+                renovate-config-validator  --strict "$file"
+            done
