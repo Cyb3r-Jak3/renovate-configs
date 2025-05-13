@@ -3,6 +3,8 @@
     "extends": [
       "config:recommended",
       "helpers:pinGitHubActionDigestsToSemver",
-      ":configMigration"
+      ":configMigration",
+      "docker:pinDigests",
+      "github>Cyb3r-Jak3/renovate-configs//assign-me.json"
     ]
 }
