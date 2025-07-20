@@ -5,6 +5,8 @@
       "helpers:pinGitHubActionDigestsToSemver",
       ":configMigration",
       "docker:pinDigests",
-      "github>Cyb3r-Jak3/renovate-configs//assign-me.json"
+      "github>Cyb3r-Jak3/renovate-configs//assign-me.json",
+      "customManagers:githubActionsVersions",
+      "customManagers:dockerfileVersions"
     ]
 }
