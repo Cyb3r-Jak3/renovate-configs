@@ -3,6 +3,7 @@
   "packageRules": [
     {
       "matchDatasources": ["terraform-provider"],
+      "matchUpdateTypes": ["patch", "minor"],
       "rangeStrategy": "bump"
     },
     {
