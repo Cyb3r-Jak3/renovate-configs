@@ -8,5 +8,11 @@
       "github>Cyb3r-Jak3/renovate-configs//assign-me.json",
       "customManagers:githubActionsVersions",
       "customManagers:dockerfileVersions"
-    ]
+    ],
+    "packageRules": [
+    {
+      "matchDatasources": ["npm"],
+      "minimumReleaseAge": "2 days"
+    }
+  ]
 }
