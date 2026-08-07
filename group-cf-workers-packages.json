@@ -3,7 +3,13 @@
     "packageRules": [
         {
             "matchPackageNames": ["@cloudflare/*", "wrangler", "miniflare"],
-            "groupName": "Cloudflare packages"
-        }
+            "groupName": "Cloudflare packages",
+            "schedule": ["* 0-7 * * 1"],
+            "automergeSchedule": ["* 0-7 * * 5"]
+        },
+        {
+      "matchDatasources": ["npm"],
+      "minimumReleaseAge": "2 days"
+    }
     ]
 }
